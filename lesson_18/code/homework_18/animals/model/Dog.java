@@ -17,4 +17,4 @@ public class Dog extends Pet {
     public void voice (){
         System.out.println(name + " says: Woof-Woof!");
     }
-}
+} // end of class
