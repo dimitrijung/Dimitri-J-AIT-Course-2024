@@ -7,8 +7,8 @@ public class StudentMarks {
 
     public static void main(String[] args) {
 
-    int[] marks = {1,6,4,3,1,2,3,2,3,4,5,2}; // обьявление массива в явном виде. В фигурных скобках все оценки что получил студент.
-    int sum = 0;
+        int[] marks = {1, 6, 4, 3, 1, 2, 3, 2, 3, 4, 5, 2}; // обьявление массива в явном виде. В фигурных скобках все оценки что получил студент.
+        int sum = 0;
 
         for (int i = 0; i < marks.length; i++) {
             sum = sum + marks[i];

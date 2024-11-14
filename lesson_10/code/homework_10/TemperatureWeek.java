@@ -8,15 +8,15 @@ package homework_10;
 public class TemperatureWeek {
     public static void main(String[] args) {
 
-       int [] temp = {32,33,34,36,32,30,31};
-       int sumTemp = 0;
+        int[] temp = {32, 33, 34, 36, 32, 30, 31};
+        int sumTemp = 0;
         System.out.println("Temperature on Tuesday was: " + temp[1] + "°C");
         System.out.println("Temperature on Thursday was: " + temp[3] + "°C");
 
         for (int i = 0; i < temp.length; i++) {
             sumTemp = sumTemp + temp[i];
         }
-        double avgTemp = (double)sumTemp / temp.length;
-        System.out.printf( "Average weekly temperature is: %.2f" + avgTemp + "°C");
+        double avgTemp = (double) sumTemp / temp.length;
+        System.out.printf("Average weekly temperature is: %.2f" + avgTemp + "°C");
     } // end of main
 } // end of class
